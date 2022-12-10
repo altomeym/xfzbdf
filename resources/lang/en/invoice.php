@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'invoice' => 'Invoice',
+    'number'   => 'Invoice No. :no', // original value is reference + hassan00942
+    'date'     => 'Invoice Date', // original value is Billing Date + hassan00942
+    'time'     => 'Billing time',
+    'due'      => 'Due date',
+    'to'       => 'Billing to',
+    'from'     => 'Billing from',
+    'description'  => 'Product', // original value is Description + hassan00942
+    'qty'      => 'Qty',
+    'price'    => 'Price',
+    'discount' => 'Discount',
+    'taxes'    => 'Taxes',
+    'total'    => 'Total',
+    'grand_total' => 'Grand Total',
+    'handling' => 'Handling',
+    'shipping' => 'Delivering', // ogriginal value Shipping + hassan00942
+    'packaging' => 'Packaging',
+    'page'     => 'Page',
+    'page_of'  => 'of',
+    'message' => 'Message',
+    'footer_note' => 'This is a computer generated invoice and requires no signature.',
+    // following added by hassan00942
+    'customer_support' => 'Customer Support',
+    'tel' => 'Tel: :no',
+    'email' => 'E-Mail: :email',
+    'website' => 'Web: :website',
+    'ust_idnr' => 'USt-IdNr. :ust_idnr',
+    'company_owner' => 'Company Owner: :company_owner',
+    'managing_director' => 'Managing Director: :name',
+    'bank' => 'Bank: :bank',
+    'iban' => 'IBAN: :IBAN',
+    'bic' => 'BIC: :bic',
+    'vat_id' => 'VAT-ID: DE339798613',
+    'respected' => 'Respected :name',
+    'thank_you_very_much' => 'Thank you very much for your order and the trust you have placed in!',
+    'we_herby_invoice' => 'We hereby invoice you for the following:',
+    // 'respected' => 'Respected',
+    'if_you_have_not_pay' => 'If you have not pay the invoice amount, please transfer the invoice amount with invoice number to the account',
+    'yours_sincerely' => 'Yours sincerely',
+    'your_customer_no' => 'Your Customer No :no',
+    'pos' => 'Pos.',
+    'image' => 'Image',
+    'order_status' => 'Order Status :status',
+    'order_completed' => 'Order Completed :date',
+    'need_any_help' => 'Need any help? write to us at :email',
+    // 'yours_sincerely' => 'Yours sincerely',
+];

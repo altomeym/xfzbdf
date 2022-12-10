@@ -1,0 +1,30 @@
+<script>
+  dataLayer = [{
+    'id': "{{ $order->id }}",
+    'order_number': "{{ $order->order_number }}",
+    'customer_id': "{{ $order->customer_id }}",
+    'shop_id': "{{ $order->shop_id }}",
+    'item_count': "{{ $order->item_count }}",
+    'quantity': "{{ $order->quantity }}",
+    'total': "{{ $order->total }}",
+    'discount': "{{ $order->discount }}",
+    'shipping': "{{ $order->shipping }}",
+    'packaging': "{{ $order->packaging }}",
+    'handling': "{{ $order->handling }}",
+    'taxes': "{{ $order->taxes }}",
+    'grand_total': "{{ $order->grand_total }}",
+    'shipping_weight': "{{ $order->shipping_weight }}",
+    'coupon_id': "{{ $order->coupon_id }}",
+    'payment_status': "{{ $order->payment_status }}",
+    'payment_method_id': "{{ $order->payment_method_id }}",
+    'message_to_customer': "{{ $order->message_to_customer }}",
+    'admin_note': "{{ $order->admin_note }}",
+    'carrier_id': "{{ $order->carrier_id }}",
+    'customer_phone_number': "{{ $order->customer_phone_number }}",
+    'buyer_note': "{{ $order->buyer_note }}",
+    'device_id': "{{ $order->device_id }}",
+    'created_at': "{{ $order->created_at }}",
+    'payment_instruction': "{{ $order->payment_instruction }}",
+    'order_status_id': "{{ $order->order_status_id }}"
+  }];
+</script>

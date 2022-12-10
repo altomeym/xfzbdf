@@ -1,0 +1,13 @@
+@component('mail::message')
+#{{ trans('notifications.refund_initiated.greeting', ['customer' => $refund->order->customer->getName()]) }}
+
+{{ trans('notifications.refund_initiated.message', ['order' => $refund->order->order_number]) }}
+<br />
+
+@include('admin.mail.refund._refund_detail_panel', ['refund_detail' => $refund])
+
+{{-- commented by hassan00942 + emailTemplateUiUpgrade00942 
+{{ trans('messages.thanks') }},<br>
+{{ $refund->shop->name . ', ' . get_platform_title() }}
+--}}
+@endcomponent

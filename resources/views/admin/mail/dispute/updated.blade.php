@@ -1,0 +1,17 @@
+@component('mail::message')
+#{{ trans('notifications.dispute_updated.greeting', ['customer' => $reply->repliable->customer->getName()]) }}
+
+{{ trans('notifications.dispute_updated.message', ['order_id' => $reply->repliable->order->order_number, 'reply' => $reply->reply]) }}
+<br/>
+
+@component('mail::button', ['url' => $url, 'color' => 'blue'])
+{{ trans('notifications.dispute_updated.button_text') }}
+@endcomponent
+
+@include('admin.mail.dispute._dispute_detail_panel', ['dispute_detail' => $reply->repliable])
+
+{{-- commented by hassan00942 + emailTemplateUiUpgrade00942 
+{{ trans('messages.thanks') }},<br>
+{{ get_platform_title() }}
+--}}
+@endcomponent
