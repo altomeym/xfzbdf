@@ -1,12 +1,8 @@
 <?php
 
 namespace App\Charts;
-<<<<<<< HEAD
 // t2/beta
 //
-=======
-// t2
->>>>>>> bff89ff6d6757f7918a4614a5faaf99339ddbf27
 use App\Helpers\CharttHelper;
 use ConsoleTVs\Charts\Classes\Highcharts\Chart;
 
