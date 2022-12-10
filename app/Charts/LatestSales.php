@@ -2,7 +2,7 @@
 
 namespace App\Charts;
 
-// td
+// 
 use App\Helpers\CharttHelper;
 use ConsoleTVs\Charts\Classes\Highcharts\Chart;
 
