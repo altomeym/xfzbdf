@@ -2,12 +2,13 @@
 
 namespace App\Charts;
 // t2
+// hassan
+// test
 use App\Helpers\CharttHelper;
 use ConsoleTVs\Charts\Classes\Highcharts\Chart;
 
 class LatestSales extends Chart
-{
-    /**
+{    /**
      * Initializes the chart.
      *
      * @return void
