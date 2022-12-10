@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Charts;
-//test
+
 use App\Helpers\CharttHelper;
 use ConsoleTVs\Charts\Classes\Highcharts\Chart;
 
