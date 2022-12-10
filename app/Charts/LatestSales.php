@@ -1,13 +1,13 @@
 <?php
 
 namespace App\Charts;
-// t2
+// t2/beta
+//
 use App\Helpers\CharttHelper;
 use ConsoleTVs\Charts\Classes\Highcharts\Chart;
 
 class LatestSales extends Chart
-{
-    /**
+{    /**
      * Initializes the chart.
      *
      * @return void
