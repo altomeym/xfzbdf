@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding: 0 10px;
+}
+.slider {
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+}
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+}
+.slide {
+  width: 30%;
+  transition: 2s;
+}
+.slides input {
+  display: none;
+}
+.slide img {
+  width: 1040px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/*manual navigation*/
+.navigation-manual {
+  position: relative;
+  margin-top: 220px;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.manual-btn {
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  transition: 1s;
+}
+.manual-btn:hover {
+  background: gray;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -30%;
+}
+#radio3:checked ~ .first {
+  margin-left: -60%;
+}
+#radio4:checked ~ .first {
+  margin-left: -90%;
+}
+.slide-image {
+  position: absolute;
+}
+.text {
+  position: relative;
+  margin-left: 28px;
+  color: white;
+  font-size: 24px;
+}
+.subtext {
+  margin-top: -10px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 28px;
+  color: white;
+}
+/*Automatic Navigation*/
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  margin-top: 220px;
+  justify-content: space-evenly;
+  width: 200px;
+}
+.navigation-auto div {
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  transition: 1s;
+}
+.header-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 250px;
+}
+.header-section-left {
+  border: 1px solid black;
+  text-align: center;
+  padding: 30px 70px;
+}
+.header-section-left img {
+  width: 100px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: white;
+}
+.header-section-right {
+  margin-right: 240px;
+}
+
+/*middle section*/
+.middle-section {
+  width: 99.3%;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  background-color: rgba(141, 207, 141, 0.6);
+  align-items: center;
+  padding: 0 5px;
+}
+.badge-and-text {
+  display: flex;
+  align-items: center;
+}
+
+.fa-certificate {
+  font-size: 40px;
+  margin: 10px;
+}
+.newService-btn {
+  color: blue;
+  border: 1px solid blue;
+  font-weight: 600;
+  font-size: 20px;
+  height: 60px;
+  width: 200px;
+  box-shadow: 3px 3px 10px black;
+}
+.promoteService-btn {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  height: 60px;
+  background-color: blue;
+  border: none;
+  width: 200px;
+  box-shadow: 3px 3px 10px black;
+}
+.last-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  width: 100%;
+  margin-top: 30px;
+}
+.last-section1 {
+  border: 1px solid black;
+  padding: 10px;
+}
+.fa-microphone,
+.fa-brain,
+.fa-puzzle-piece {
+  font-size: 55px;
+}
+.last-section-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.last-section-btn1 {
+  background-color: rgba(141, 207, 141, 0.6);
+  color: black;
+  border: none;
+  height: 30px;
+  width: 120px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.last-section1 > a {
+  margin-left: 260px;
+}
+
+.icon-and-btn {
+  display: flex;
+  align-items: center;
+}
+.icon-and-btn > div {
+  background-color: rgba(141, 207, 141, 0.6);
+  padding: 10px 20px;
+  margin-left: 170px;
+}
+.icon-and-btn > div > a {
+  color: black;
+  text-decoration: none;
+}

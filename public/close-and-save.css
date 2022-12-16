@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.head-container {
+  display: grid;
+  place-items: center;
+}
+.social-icon {
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+  margin-bottom: 150px;
+  margin-top: 45px;
+  align-items: center;
+}
+.first {
+  padding-right: 20px;
+  border-right: 4px solid black;
+}
+img {
+  width: 100px;
+}
+.help-section > a {
+  box-shadow: 2px 2px 10px black;
+  border-radius: 10px;
+}
+.confirmation-container {
+  display: grid;
+  place-items: center;
+}
+.confirmation-container {
+  display: grid;
+  place-items: center;
+}
+
+.help-section {
+  display: flex;
+  width: 670px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-bottom: 60px;
+  background-color: rgb(240, 229, 229);
+  margin-top: 10px;
+}
+.fa-user {
+  font-size: 30px;
+}
+button > i {
+  font-size: 20px;
+  color: white;
+}
+button {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: blue;
+  border: none;
+  box-shadow: 3px 3px 10px black;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+* {
+  margin: 0;
+}
+body {
+  padding: 0 20px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.footer-section {
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 16px black;
+  width: 250px;
+  padding: 5px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.seller-icon > .fa-user {
+  font-size: 45px;
+  margin-right: 6px;
+}
+.sub-seller-information {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 10px 15px;
+}
+.online-status {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  bottom: 16.6%;
+  left: 4%;
+  border-radius: 50%;
+}

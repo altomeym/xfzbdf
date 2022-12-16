@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 5px 30px;
+  max-width: 100vw;
+}
+.head-container {
+  display: grid;
+  place-items: center;
+}
+.social-icon {
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  align-items: center;
+}
+.first {
+  padding-right: 20px;
+  border-right: 4px solid black;
+}
+img {
+  width: 100px;
+}
+.main-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.left-main-container1 {
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 10px;
+  position: relative;
+}
+.left-main-container1 > p {
+  color: gray;
+  font-size: larger;
+}
+.manual-selection {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+* {
+  margin: 0;
+}
+#counter {
+  display: flex;
+  align-items: center;
+}
+
+#count {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.manual-selection > i {
+  font-size: 40px;
+  margin-right: 8px;
+}
+.manual-selection > button {
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  padding: 5px 10px;
+}
+.audience-details {
+  width: 550px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 10px;
+}
+.audience-details > p {
+  color: gray;
+  font-size: larger;
+}
+.manual-selection-text > p {
+  font-size: larger;
+  color: gray;
+}
+.red-text {
+  background-color: rgb(241, 185, 185);
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.audience-details-selection1 > p {
+  margin-bottom: 10px;
+}
+.audience-details-selection1 > p > input {
+  outline: none;
+  border: none;
+}
+.audience-details-selection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.placements-section {
+  margin-top: 20px;
+  position: relative;
+}
+.placement-subtext {
+  display: flex;
+  margin-bottom: 10px;
+}
+.social-checkbox {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -8px;
+}
+.facebook,
+.instagram {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.placement-subtext > p {
+  color: gray;
+}
+.duration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+.main-counter > p {
+  font-size: x-small;
+  margin-bottom: -6px;
+}
+.main-counter {
+  border: 1px solid rgb(199, 192, 192);
+  padding: 5px;
+  width: 110px;
+}
+.counter {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.counter > button {
+  border-radius: 50%;
+  border-width: 1px;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+}
+.duration > input {
+  height: 35px;
+  border: 1px solid rgb(199, 192, 192);
+  padding: 5px;
+}
+.budget {
+  margin-top: 15px;
+  position: relative;
+}
+.budget > p {
+  color: gray;
+}
+.budget-info {
+  text-align: center;
+  margin-top: 10px;
+}
+.budget-info > h2 > i {
+  font-size: 15px;
+}
+.range {
+  display: flex;
+  justify-content: center;
+}
+
+.budget-info > h2 > span {
+  color: blue;
+}
+.budget-info > h2 {
+  margin-bottom: 20px;
+}
+.value {
+  font-size: 50px;
+  color: blue;
+}
+.range > input {
+  width: 450px;
+}
+.right-main-container {
+  padding: 10px 15px;
+  height: 545px;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 10px;
+}
+.content {
+  margin-top: 40px;
+}
+.content > p {
+  color: grey;
+  margin-bottom: 3px;
+}
+.content > p > input {
+  border: none;
+  outline: none;
+}
+.footer-section {
+  color: grey;
+  font-weight: 800;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 18px;
+}
+.footer-section > p > span {
+  color: blue;
+}
+.footer-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.btn1 {
+  border: none;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px 20px;
+  background-color: rgb(204, 197, 197);
+  color: rgb(105, 101, 101);
+  border-radius: 10px;
+}
+.btn2 {
+  border: none;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+input[type="text"] {
+  font-weight: 700;
+  font-size: large;
+}
+.audience-details-selection1 > p {
+  font-weight: 800;
+}
+a {
+  text-decoration: none;
+}
+.manual-selection > button {
+  border-radius: 5px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.one {
+  margin-bottom: 15px;
+}
+.one:hover,
+.two:hover {
+  background-color: gray;
+  color: white;
+}
+.manual-selection > button:active {
+  transform: scale(0.9);
+}
+#Age {
+  width: 30px;
+}
+.info-popup,
+.info-popup1,
+.info-popup2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  color: white;
+  font-size: 12px;
+}
+.show-popup {
+  display: block;
+}
+.placements-section > h2 {
+  margin-bottom: 15px;
+}
+.info-popup {
+  right: 0%;
+  top: 25%;
+}
+.info-popup1 {
+  right: 35%;
+  top: 25%;
+}
+.info-popup2 {
+  right: 10%;
+  top: 55%;
+}
+.fa-pencil {
+  color: blue;
+}
+.budget-info > h2 > input {
+  outline: none;
+  border: none;
+  width: 170px;
+  font-size: 45px;
+}
+.dollar-sign {
+  font-size: 45px;
+  color: blue;
+}
+.budget-info > h2 > input::placeholder {
+  font-size: 25px;
+}
+.btn1:active,
+.btn2:active {
+  transform: scale(0.9);
+}
+@media only screen and (max-width: 1225px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px;
+  }
+  .right-main-container {
+    width: 60%;
+    align-content: center;
+  }
+  .left-main-container1 {
+    width: 60%;
+  }
+  .audience-details {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1225px) {
+  .left-main-container1 {
+    width: 450px;
+  }
+  .audience-details {
+    width: 450px;
+  }
+}

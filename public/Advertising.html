@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertising</title>
+    <script src="https://kit.fontawesome.com/1a246e4d47.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Advertising.css">
+</head>
+
+<body>
+    <div class="head-container">
+        <div class="social-icon">
+            <img class="first" src="./tiejet_logo.png">
+            <img src="./tiejet_logo.png">
+            <img src="./tiejet_logo.png">
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="left-main-container">
+            <div class="left-main-container1">
+                <h2>1. Your Aim <i class="fa-solid fa-circle-info info1"></i></h2>
+                <div class="info-popup1">
+                    <p>What results would you like from this ad?</p>
+                </div>
+
+                <div class="manual-selection">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="manual-selection-text ones">
+                        <h2>Automatic</h2>
+                        <p>Let Tiejet select the most relevant goal based on your settings.</p>
+                    </div>
+                    <div class="manual-selection-text twos hide">
+                        <h2>Manual</h2>
+                        <p>You can choose to select the most relevant goal yourself.</p>
+                    </div>
+                    <button class="change-btn">Change</button>
+                </div>
+            </div>
+            <div class="audience-details">
+                <h2>2. Audience details</h2>
+                <p>Who should see your ad?</p>
+                <p class="red-text">
+                    This audience is based on your Product details and will automatically adjust over time to reach more
+                    people who have interests related to your business.
+                </p>
+                <div class="audience-details-selection">
+                    <div class="audience-details-selection1">
+                        <p>Location: <select name="location" id="location">
+                                <option value="location">Select</option>
+                                <option value="location">Nigeria</option>
+                                <option value="location">Germany</option>
+                                <option value="location">Portugal</option>
+                            </select>
+                        <p>Interests: <select name="interests" id="interests">
+                                <option value="interests">Select</option>
+                                <option value="interests">Chess</option>
+                                <option value="interests">Swimming</option>
+                                <option value="interests">Dancing</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="audience-details-selection2">
+                        <p>Age: <select name="age" id="age">
+                                <option value="age">Select</option>
+                                <option value="age">8-18</option>
+                                <option value="age">19-24</option>
+                                <option value="age">25-30</option>
+                            </select></p>
+                    </div>
+                </div>
+                <div class="placements-section">
+                    <h2>3. Placements <i class="fa-solid fa-circle-info info"></i></h2>
+                    <div class="info-popup">
+                        <p>Choose where your ad will appear. More platforms help improve results.</p>
+                    </div>
+                    <div class="social-checkbox">
+                        <div class="facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                            <p>Facebook</p>
+                        </div>
+                        <input type="checkbox">
+                    </div>
+                    <div class="social-checkbox">
+                        <div class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>Instagram</p>
+                        </div>
+                        <input type="checkbox">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-main-container">
+            <div class="duration">
+                <h2>4. Duration</h2>
+                <div class="main-counter">
+                    <p>Days</p>
+                    <div class="counter">
+                        <span id="count">0</span>
+                        <button id="decrement">-</button>
+                        <button id="increment">+</button>
+                    </div>
+                </div>
+                <input type="date">
+            </div>
+            <div class="budget">
+                <h2>Total Budget <i class="fa-solid fa-circle-question info2"></i></h2>
+                <div class="info-popup2">
+                    <p>Define how much you'd like to spend, and when you'd like your ads to appear.</p>
+                </div>
+            </div>
+            <div class="budget-info">
+                <h2>Estimated 100-288<span> people</span> reached per day</h2>
+
+                <h2 class="dollar-sign">$<input type="text" class="value" placeholder="Enter Budget"><i
+                        class="fa-solid fa-pencil edit"></i></h2>
+                <div class="range">
+                    <p>$1.00</p>
+                    <input type="range" name="price-range" id="price-range">
+                    <p>$500.00</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2>5. Content:</h2>
+                <p>a. Choose how you'd like to provide the media for your ad.</p>
+                <p>b. Select Service link: <input type="text" placeholder="Select*"></p>
+                <p>c. Single image or video: <input type="text" placeholder="Provide link here*"></p>
+            </div>
+            <div class="footer-section">
+                <p>By clicking "Publish", you agree to Tiejet's <span>Terms and Advertising Guidelines</span></p>
+                <div class="footer-buttons">
+                    <a href="./Close-and-save.html" class="btn1">Close & Save</a>
+                    <a href="./Advertising-After-Publish.html" class="btn2">Publish</a>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="Avertising.js"></script>
+
+</html>

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 40px 90px;
+}
+.head-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.left-head-section {
+  width: 45%;
+}
+.texts > h3 {
+  font-size: 25px;
+}
+.texts > p {
+  font-size: 18px;
+  color: grey;
+}
+.order-section {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.button > p {
+  font-size: 10px;
+}
+.btn {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 0 21px;
+  margin-top: -10px;
+}
+.button {
+  margin-top: -15px;
+}
+.last-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
+  gap: 40px;
+}
+.one {
+  background-color: rgb(240, 210, 215);
+}
+.two {
+  background-color: rgb(224, 204, 224);
+}
+.three {
+  background-color: rgb(208, 236, 208);
+}
+.last-section-card {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.sample-btn {
+  background: transparent;
+  width: 200px;
+  padding: 11px 21px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: -6px;
+}

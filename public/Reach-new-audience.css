@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.sub-window-option > i {
+  border: 1px solid black;
+  padding: 2px;
+}
+.window-option {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.help-section {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background-color: rgb(218, 240, 233);
+  justify-content: space-evenly;
+  width: 110%;
+  height: 60px;
+  margin-top: 65px;
+}
+.left-middle-section {
+  color: rgb(71, 56, 56);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 15px 90px;
+}
+.texts > p {
+  color: gray;
+}
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+}
+.last-section {
+  background-color: pink;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 80px;
+  padding: 40px;
+  margin-top: 65px;
+}
+.method {
+  background-color: white;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px;
+  font-weight: 500;
+  justify-content: center;
+}
+.method > i {
+  font-size: 40px;
+}
+.help-section > button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 9px;
+  font-weight: 600;
+}
+button > i {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.container {
+  border: 2px solid black;
+  padding: 30px 20px;
+  display: grid;
+  place-items: center;
+  display: none;
+}
+.thank-you {
+  margin-bottom: -15px;
+}
+.sub-text {
+  margin-bottom: -2px;
+}
+.btn2 > button {
+  color: white;
+  background-color: rgb(58, 58, 184);
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.main-container {
+  border: 2px solid black;
+  padding: 20px 10px;
+  width: 310px;
+}
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20vh;
+}
+.head-sect {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.fa-user {
+  font-size: 50px;
+  position: relative;
+}
+.sub-seller-information {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  margin-top: -25px;
+}
+.seller-icon {
+  margin-right: 10px;
+}
+.message-instruction {
+  margin-bottom: 75px;
+  text-align: center;
+}
+.message {
+  text-align: center;
+}
+input {
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.btn > button {
+  color: white;
+  background-color: rgb(58, 58, 184);
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91%;
+  border: none;
+}
+button > i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.btn > button:hover {
+  cursor: pointer;
+}
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.show {
+  display: grid;
+}
+.hide {
+  display: none;
+}
+.predefined-text {
+  padding: 5px;
+  font-size: 16px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.online-status {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+  top: 31%;
+  left: 41%;
+  border-radius: 50%;
+}

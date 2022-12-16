@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seller Dashboard</title>
+    <link rel="stylesheet" href="./sellerDashboard.css" />
+    <script src="https://kit.fontawesome.com/1a246e4d47.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Div for the whole page-->
+    <div class="main-container">
+        <!--Div for the head section-->
+        <div class="header-section">
+            <!--left section of the head section-->
+            <div class="header-section-left">
+                <img src="./tiejet_logo.png" />
+                <p>Shop Name</p>
+                <p>Order Received</p>
+                <p>Account Balance</p>
+                <p>Action Required: <i class="fa-regular fa-bell"></i></p>
+            </div>
+            <!--right section of the head section-->
+            <div class="header-section-right">
+                <!--Image Slider section-->
+                <div class="slider">
+                    <div class="slides">
+                        <!--RAdio Buttons-->
+                        <input type="radio" name="radio-btn" id="radio1" />
+                        <input type="radio" name="radio-btn" id="radio2" />
+                        <input type="radio" name="radio-btn" id="radio3" />
+                        <input type="radio" name="radio-btn" id="radio4" />
+
+                        <!--Slides-images-->
+                        <div class="slide first">
+                            <img class="slide-image" src="./403.svg" alt="" />
+                            <h1 class="text">Make lists, Stay productive</h1>
+                            <p class="subtext">
+                                Organize your favourite freelancers & services into shared
+                                team lists
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <img class="slide-image" src="./404.svg" alt="" />
+                            <h1 class="text">Make lists, Stay productive</h1>
+                            <p class="subtext">
+                                Organize your favourite freelancers & services into shared
+                                team lists
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <img class="slide-image" src="./500.svg" alt="" />
+                            <h1 class="text">Make lists, Stay productive</h1>
+                            <p class="subtext">
+                                Organize your favourite freelancers & services into shared
+                                team lists
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <img class="slide-image" src="./503.svg" alt="" />
+                            <h1 class="text">Make lists, Stay productive</h1>
+                            <p class="subtext">
+                                Organize your favourite freelancers & services into shared
+                                team lists
+                            </p>
+                        </div>
+                        <!--Automatic Navigation-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <!--Manual Navigation-->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Middle Section-->
+        <div class="middle-section">
+            <div class="badge-and-text">
+                <div class="badge">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="texts">
+                    <h2>Hi Tiejet, Welcome back!</h2>
+                    <p>
+                        Simply create a project brief and you'll receive proposals from
+                        the most relevant freelancers.
+                    </p>
+                </div>
+            </div>
+            <button class="newService-btn">Add New Service</button>
+            <button class="promoteService-btn">Promote Service</button>
+        </div>
+
+        <!--Last section-->
+        <div class="last-section">
+            <div class="last-section1">
+                <div class="icon-and-btn">
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                    <div><a href="./DevelopABrandIdentity.html">Start Now <i
+                                class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="last-section-text">
+                    <h4>Develop a brand identity</h4>
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+                <div class="last-section-subtext">
+                    <p>
+                        Develop your brand with strong and consistent elements and
+                        guidelines
+                    </p>
+                </div>
+            </div>
+            <div class="last-section1">
+                <div class="icon-and-btn">
+                    <i class="fa-solid fa-microphone"></i>
+                    <div><a href="./Reach-new-audience.html">Start Now <i
+                                class="fa-sharp fa-solid fa-arrow-right"></i></a></div>
+                </div>
+                <div class="last-section-text">
+                    <h4>Reach New Audience</h4>
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+                <div class="last-section-subtext">
+                    <p>
+                        Create powerful ads and publish them directly to our advertising
+                        network
+                    </p>
+                </div>
+            </div>
+            <div class="last-section1">
+                <div class="icon-and-btn">
+                    <i class="fa-solid fa-brain"></i>
+                    <div><a>
+                            Start Now <i class="fa-sharp fa-solid fa-arrow-right"></i></a></div>
+                </div>
+                <div class="last-section-text">
+                    <h4>Deliver Your Orders</h4>
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+                <div class="last-section-subtext">
+                    <p>
+                        Simply create a project brief and you'll receive proposals from
+                        the most relivant freelancers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./sellerDashboard.js"></script>
+</body>
+
+</html>
